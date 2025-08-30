@@ -10,18 +10,17 @@ A Command Line Based tool that checks the status of URLs passed as arguements
 
 ## 🚀 Step-by-Step Plan
 **Step 1: CLI Argument Handling**
+![alt text](./Screenshots/step1.png)
 
-Hint:
-
-You’ll find what you need in the os package. Don’t forget that the first element is always the command itself. Validate input length.
+Hint: You’ll find what you need in the os package. Don’t forget that the first element is always the command itself. Validate input length.
 
 Checkpoint:
 Can your program reject empty input and print usage instructions?
 
 **Step 2: HTTP Request Logic**
-Hint:
+![alt text](./Screenshots/step2.png)
 
-A standard library package lets you make a GET request with one line. Handle possible errors (what if the domain doesn't exist?). Time the request — think of what tool gives you nanosecond precision.
+Hint: A standard library package lets you make a GET request with one line. Handle possible errors (what if the domain doesn't exist?). Time the request — think of what tool gives you nanosecond precision.
 
 Checkpoint:
 Can you extract status code, status string, and duration in milliseconds?
