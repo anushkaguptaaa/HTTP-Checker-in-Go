@@ -14,25 +14,21 @@ A Command Line Based tool that checks the status of URLs passed as arguements
 
 Hint: You’ll find what you need in the os package. Don’t forget that the first element is always the command itself. Validate input length.
 
-Checkpoint:
-Can your program reject empty input and print usage instructions?
+Checkpoint: Can your program reject empty input and print usage instructions?
 
 **Step 2: HTTP Request Logic**
 ![alt text](./Screenshots/step2.png)
 
 Hint: A standard library package lets you make a GET request with one line. Handle possible errors (what if the domain doesn't exist?). Time the request — think of what tool gives you nanosecond precision.
 
-Checkpoint:
-Can you extract status code, status string, and duration in milliseconds?
+Checkpoint: Can you extract status code, status string, and duration in milliseconds?
 
 **Step 3: Result Struct**
+![alt text](./Screenshots/step3.png)
 
-Hint:
+Hint: You'll eventually have multiple fields like status, duration, etc. Bundle them. Think: how would you return more than one thing from a function?
 
-You'll eventually have multiple fields like status, duration, etc. Bundle them. Think: how would you return more than one thing from a function?
-
-Checkpoint:
-Can you return a full "result object" from your checker logic?
+Checkpoint: Can you return a full "result object" from your checker logic?
 
 **Step 4: Print Clean Output**
 
